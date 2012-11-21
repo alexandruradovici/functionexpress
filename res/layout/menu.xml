@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_fx" android:title="Edit Function" android:icon="@drawable/draw_function"/>
+	<item android:id="@+id/menu_goto0" android:title="Goto (0,0)" android:icon="@drawable/goto0"/>
+	<item android:id="@+id/menu_computefx" android:title="Compute f(x)"	android:icon="@drawable/funct" />
+	<item android:id="@+id/menu_settings" android:title="Settings" android:icon="@drawable/configure"/>
+	<item android:id="@+id/menu_exit" android:title="Exit"/>
+</menu>

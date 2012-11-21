@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dp"
+    android:baselineAligned="true"
+    >
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+    <TableRow>
+    	<TextView android:text="f(x)=" android:id="@+id/function_title" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30dp"/>
+   		<TextView android:id="@+id/function" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="30dp"/>
+   		<TextView android:text="[-10,10]" android:id="@+id/zoom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="right" android:textSize="30dp"/>
+   	</TableRow>
+   	</TableLayout>
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0dp" android:id="@+id/screen" android:layout_weight="1"></LinearLayout>
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<SeekBar android:id="@+id/zoomslider" android:layout_width="0dp" android:layout_height="wrap_content" android:max="100" android:progress="10" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_weight="1"/>
+	</LinearLayout>     
+</LinearLayout>
