@@ -357,6 +357,7 @@ public class FunctionExpress extends Activity {
         //goto0 = (Button)findViewById(R.id.goto0);
         zoomslider = (SeekBar)findViewById(R.id.zoomslider);
         zoom = (TextView)findViewById(R.id.zoom);
+        
         /*draw.setOnClickListener(new OnClickListener() 
         {	
 			@Override
@@ -378,6 +379,7 @@ public class FunctionExpress extends Activity {
 				d.invalidate();
 			}
 		});*/
+        
         zoomslider.setOnSeekBarChangeListener(new OnSeekBarChangeListener() 
         {	
 			@Override
